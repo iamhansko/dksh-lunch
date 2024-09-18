@@ -16,5 +16,5 @@ npm start
 - Docker or Docker Desktop
 
 docker build -t dksh-lunch .
-docker run -d -p 5000:5000 dksh-lunch
+docker run -d --restart always -p 5000:5000 dksh-lunch
 ```
