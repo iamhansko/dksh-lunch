@@ -41,7 +41,7 @@ RUN apt-get update && apt-get install -y \
     lsb-release \
     xdg-utils
 
-ENV CHROME_VERSION=128.0.6613.119
+ENV CHROME_VERSION=130.0.6723.58
 RUN wget https://storage.googleapis.com/chrome-for-testing-public/$CHROME_VERSION/linux64/chromedriver-linux64.zip && \
     unzip chromedriver-linux64.zip && \
     mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver && \
